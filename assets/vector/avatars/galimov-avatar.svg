@@ -1,0 +1,19 @@
+<svg width="75" height="76" viewBox="0 0 75 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="37.5" cy="37.8117" r="37.5" fill="url(#paint0_linear_114_125)"/>
+<mask id="mask0_114_125" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="18" y="18" width="39" height="39">
+<path d="M56.5923 18.7195H18.4077V56.904H56.5923V18.7195Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_114_125)">
+<path d="M33.6816 49.2671H41.3186V56.904H33.6816V49.2671Z" fill="#FB8C00"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.4077 41.6302H26.0446V49.2671H18.4077V41.6302ZM48.9554 41.6302H56.5923V49.2671H48.9554V41.6302Z" fill="#FB8C00"/>
+<path d="M18.4077 33.9933H56.5923V41.6302H18.4077V33.9933Z" fill="#FB8C00"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.4077 26.3564H33.6815V33.9933H18.4077V26.3564ZM41.3185 26.3564H56.5923V33.9933H41.3185V26.3564Z" fill="#FB8C00"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.4077 18.7195H26.0446V26.3564H18.4077V18.7195ZM33.6815 18.7195H41.3185V26.3564H33.6815V18.7195ZM48.9554 18.7195H56.5923V26.3564H48.9554V18.7195Z" fill="#FB8C00"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_114_125" x1="0" y1="0.311737" x2="75" y2="75.3117" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FE6565"/>
+<stop offset="0.855425" stop-color="#E6C75A" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

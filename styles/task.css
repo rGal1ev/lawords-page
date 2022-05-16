@@ -1,0 +1,116 @@
+.task {
+    padding-bottom: 100px;
+}
+
+.task__suptitle::before {
+    content: '';
+    display: block;
+
+    width: 1289.45px;
+    height: 147.67px;
+
+    position: absolute;
+
+    background: url('../assets/vector/bg-graphic/second-text-grid.svg') no-repeat;
+    background-size: cover;
+    top: -28px;
+    left: -240px;
+
+    z-index: -1;
+}
+
+.task__purpose {
+    background-color: #F5F5F5;
+    margin-top: 100px;
+    padding: 40px 0;
+}
+
+.task__second-wrapper__title {
+    font-weight: 700;
+    font-size: 28px;
+
+    text-transform: uppercase;
+}
+
+.task__second-wrapper__subtitle {
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.task__second-wrapper__text-container {
+    max-width: 630px;
+
+    position: relative;
+}
+
+.task__purpose__second-wrapper__text-container::after {
+    content: '';
+    display: block;
+
+    width: 248px;
+    height: 352.27px;
+
+    background: url('../assets/vector/purpose-image.svg') no-repeat;
+    background-size: cover;
+    top: -100px;
+    right: -650px;
+
+    position: absolute;
+
+    transition: all .2s ease;
+}
+
+.task__purpose:hover {
+    background-color: var(--main-accent-color);
+    color: #FFFFFF;
+}
+
+.task__purpose:hover .task__purpose__second-wrapper__text-container::after {
+    right: -600px;
+}
+
+
+
+.task__problem {
+    background-color: #F5F5F5;
+    margin-top: 80px;
+    padding: 40px 0;
+
+    transition: all .2s ease;
+}
+
+.task__problem__second-wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.task__problem__second-wrapper__text-container {
+    text-align: right;
+    width: 500px;
+}
+
+.task__problem__second-wrapper__text-container::after {
+    content: '';
+    display: block;
+
+    width: 336px;
+    height: 272.98px;
+
+    background: url('../assets/vector/task-image.svg') no-repeat;
+    background-size: cover;
+    top: -80px;
+    left: -800px;
+
+    position: absolute;
+
+    transition: all .2s ease;
+}
+
+.task__problem:hover {
+    background-color: var(--main-accent-color);
+    color: #FFFFFF;
+}
+
+.task__problem:hover .task__problem__second-wrapper__text-container::after {
+    left: -750px;
+}

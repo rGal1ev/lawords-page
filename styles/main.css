@@ -1,0 +1,100 @@
+@import url("./nav.css");
+
+@import url("./header.css");
+
+@import url("./task.css");
+
+@import url("./aboutapp.css");
+
+@import url("./interface.css");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+/* ОСНОВНОЕ */
+
+body {
+  /* ПЕРЕМЕННЫЕ ДЛЯ ТЕКСТОВ */
+
+  --text-main-color: #272727;
+
+  --text-second-color: #6d6d6d;
+
+  --text-main-family: "Inter";
+
+  --text-second-family: "Caveat";
+
+  --text-size: 20px;
+
+  /* ОСНОВНЫЕ ПЕРЕМЕННЫЕ */
+
+  --main-accent-color: #1789fc;
+
+  --main-wrapper-limit: 1440px;
+
+  --second-wrapper-limit: 1800px;
+
+  font-family: var(--text-main-family);
+
+  font-size: var(--text-size);
+
+  color: var(--text-main-color);
+
+  position: relative;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+
+  background: #ececec;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--main-accent-color);
+}
+
+.wrapper {
+  width: 100%;
+
+  max-width: var(--second-wrapper-limit);
+
+  margin: 0 auto;
+
+  padding: 0 60px;
+}
+
+.second-wrapper {
+  width: 100%;
+
+  max-width: var(--main-wrapper-limit);
+
+  margin: 0 auto;
+}
+
+/* OTHER WRAPPERS OPTIONS */
+
+.header__wrapper {
+  margin-top: 75px;
+}
+
+.other {
+  height: 100vh;
+}
+
+.main {
+  transition: all 0.5s ease;
+}
+
+.main._active-light {
+  background-color: var(--main-accent-color);
+  color: #fff;
+}

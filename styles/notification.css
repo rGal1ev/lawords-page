@@ -1,0 +1,42 @@
+.notification {
+    width: 400px;
+
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+
+    margin: 40px;
+}
+
+.notification__list {
+    list-style: none;
+}
+
+.notification__item-individual {
+    background: #F3F3F3;
+    border-radius: 20px;
+
+    padding: 10px;
+
+    margin-top: 10px;
+
+    transition: all .2s ease;
+}
+
+.notification__item-complicated {
+    background: #F3F3F3;
+    border-radius: 20px;
+
+    padding: 10px;
+    
+    margin-top: 10px;
+
+    transition: all .2s ease;
+}
+
+.notification__item-individual._hide, .notification__item-complicated._hide {
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+}

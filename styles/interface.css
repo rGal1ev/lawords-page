@@ -1,0 +1,122 @@
+.interface {
+  height: 100vh;
+
+  position: relative;
+}
+
+.interface__suptitle {
+  position: relative;
+}
+
+.main._active-light .interface__suptitle {
+  color: #ffffff;
+}
+
+.interface__suptitle::before {
+  content: "";
+  display: block;
+
+  width: 1289.45px;
+  height: 147.67px;
+
+  position: absolute;
+
+  background: url("../assets/vector/bg-graphic/second-text-grid.svg") no-repeat;
+  background-size: cover;
+  top: -28px;
+  left: -240px;
+
+  z-index: 10;
+}
+
+.main._active-light .interface__suptitle::before {
+  content: "";
+  display: block;
+
+  width: 1289.45px;
+  height: 147.67px;
+
+  position: absolute;
+
+  background: url("../assets/vector/bg-graphic/second-text-grid-light.svg")
+    no-repeat;
+  background-size: cover;
+  top: -28px;
+  left: -240px;
+
+  z-index: 10;
+}
+
+.interface__second-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-wrapper__subtitle {
+  max-width: 450px;
+}
+
+.interface__main {
+  position: absolute;
+  background: url("../assets/vector/interface-first.svg") no-repeat;
+  background-size: cover;
+
+  width: 1121.72px;
+  height: 609.33px;
+
+  bottom: 0;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.interface__note {
+  position: absolute;
+  font-family: "Caveat";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.first {
+  left: 150px;
+  top: 400px;
+}
+
+.first::after {
+  position: absolute;
+  content: "";
+  display: block;
+
+  background: url("../assets/vector/arrows/arrow-first.svg") no-repeat;
+  background-size: cover;
+
+  width: 129px;
+  height: 60px;
+
+  right: -80px;
+  bottom: -30px;
+}
+
+.first > p {
+  width: 150px;
+}
+
+.second {
+  left: 600px;
+}
+
+.second::after {
+  position: absolute;
+  content: "";
+  display: block;
+
+  background: url("../assets/vector/arrows/arrow-second.svg") no-repeat;
+  background-size: cover;
+
+  width: 82.14px;
+  height: 39.62px;
+
+  right: -80%;
+  top: 0;
+}
